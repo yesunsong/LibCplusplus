@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12646C331DE6EC2300500B73 /* libLibCplusplus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12646C301DE6EBEF00500B73 /* libLibCplusplus.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12646C2F1DE6EBEF00500B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12646C2B1DE6EBEF00500B73 /* LibCplusplus.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12646BF51DE6E57D00500B73;
+			remoteInfo = LibCplusplus;
+		};
+		12646C311DE6EBFF00500B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12646C2B1DE6EBEF00500B73 /* LibCplusplus.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 12646BF41DE6E57C00500B73;
+			remoteInfo = LibCplusplus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12646C0D1DE6E7EB00500B73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12646C0F1DE6E7EB00500B73 /* LibCplusplusTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LibCplusplusTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12646C2B1DE6EBEF00500B73 /* LibCplusplus.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LibCplusplus.xcodeproj; path = ../../LibCplusplus/proj.ios/LibCplusplus.xcodeproj; sourceTree = "<group>"; };
+		12C3C34C1DE6F20B00677F97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12646C0C1DE6E7EB00500B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12646C331DE6EC2300500B73 /* libLibCplusplus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12646C061DE6E7EB00500B73 = {
+			isa = PBXGroup;
+			children = (
+				12C3C34B1DE6F20B00677F97 /* Classes */,
+				12646C2B1DE6EBEF00500B73 /* LibCplusplus.xcodeproj */,
+				12646C101DE6E7EB00500B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12646C101DE6E7EB00500B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12646C0F1DE6E7EB00500B73 /* LibCplusplusTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12646C2C1DE6EBEF00500B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12646C301DE6EBEF00500B73 /* libLibCplusplus.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12C3C34B1DE6F20B00677F97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12C3C34C1DE6F20B00677F97 /* main.cpp */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12646C0E1DE6E7EB00500B73 /* LibCplusplusTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12646C161DE6E7EB00500B73 /* Build configuration list for PBXNativeTarget "LibCplusplusTest" */;
+			buildPhases = (
+				12646C0B1DE6E7EB00500B73 /* Sources */,
+				12646C0C1DE6E7EB00500B73 /* Frameworks */,
+				12646C0D1DE6E7EB00500B73 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12646C321DE6EBFF00500B73 /* PBXTargetDependency */,
+			);
+			name = LibCplusplusTest;
+			productName = LibCplusplusTest;
+			productReference = 12646C0F1DE6E7EB00500B73 /* LibCplusplusTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12646C071DE6E7EB00500B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sunsong Ye";
+				TargetAttributes = {
+					12646C0E1DE6E7EB00500B73 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 12646C0A1DE6E7EB00500B73 /* Build configuration list for PBXProject "LibCplusplusTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12646C061DE6E7EB00500B73;
+			productRefGroup = 12646C101DE6E7EB00500B73 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 12646C2C1DE6EBEF00500B73 /* Products */;
+					ProjectRef = 12646C2B1DE6EBEF00500B73 /* LibCplusplus.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				12646C0E1DE6E7EB00500B73 /* LibCplusplusTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		12646C301DE6EBEF00500B73 /* libLibCplusplus.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLibCplusplus.a;
+			remoteRef = 12646C2F1DE6EBEF00500B73 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12646C0B1DE6E7EB00500B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12646C321DE6EBFF00500B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LibCplusplus;
+			targetProxy = 12646C311DE6EBFF00500B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12646C141DE6E7EB00500B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12646C151DE6E7EB00500B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12646C171DE6E7EB00500B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /Users/sunsongye/Documents/MySelf/LibCplusplus/LibCplusplus/Classes;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../libs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12646C181DE6E7EB00500B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /Users/sunsongye/Documents/MySelf/LibCplusplus/LibCplusplus/Classes;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../libs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12646C0A1DE6E7EB00500B73 /* Build configuration list for PBXProject "LibCplusplusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12646C141DE6E7EB00500B73 /* Debug */,
+				12646C151DE6E7EB00500B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12646C161DE6E7EB00500B73 /* Build configuration list for PBXNativeTarget "LibCplusplusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12646C171DE6E7EB00500B73 /* Debug */,
+				12646C181DE6E7EB00500B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12646C071DE6E7EB00500B73 /* Project object */;
+}
