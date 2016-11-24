@@ -10,5 +10,5 @@
 #include <iostream>
 
 void Test::sayHello(){
-    std::cout<<"say hello"<<std::endl;
+    std::cout<<"say hello in windows"<<std::endl;
 }
