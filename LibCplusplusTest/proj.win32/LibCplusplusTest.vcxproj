@@ -82,11 +82,26 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\test\ArrayTest.h" />
+    <ClInclude Include="..\Classes\test\base\BaseTest.h" />
+    <ClInclude Include="..\Classes\test\FunctionTest.h" />
+    <ClInclude Include="..\Classes\test\MadLib.h" />
+    <ClInclude Include="..\Classes\test\PointerTest.h" />
+    <ClInclude Include="..\Classes\test\ReferenceTest.h" />
+    <ClInclude Include="..\Classes\test\StringTest.h" />
+    <ClInclude Include="..\Classes\test\VectorTest.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\main.cpp" />
+    <ClCompile Include="..\Classes\test\ArrayTest.cpp" />
+    <ClCompile Include="..\Classes\test\FunctionTest.cpp" />
+    <ClCompile Include="..\Classes\test\MadLib.cpp" />
+    <ClCompile Include="..\Classes\test\PointerTest.cpp" />
+    <ClCompile Include="..\Classes\test\ReferenceTest.cpp" />
+    <ClCompile Include="..\Classes\test\StringTest.cpp" />
+    <ClCompile Include="..\Classes\test\VectorTest.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>

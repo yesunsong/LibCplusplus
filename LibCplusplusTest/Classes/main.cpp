@@ -7,14 +7,13 @@
 //
 
 #include <iostream>
-
 #include "Test.h"
 
 int main(int argc, const char * argv[]) {
     std::cout << "Hello C++!\n";
-    
+
     Test* test = new Test();
-    test->sayHello();    
-    
+    test->sayHello();
+
     return 0;
 }
